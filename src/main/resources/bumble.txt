@@ -1,0 +1,6 @@
+include=appium.txt
+APP_PACKAGE=com.bumble.app
+APP_ACTIVITY=com.bumble.app.ui.launcher.BumbleLauncherActivity
+USER_NAME=com.bumble.app:id/profileInfo_name
+USER_AGE=com.bumble.app:id/profileInfo_name
+ERRORS=com.bumble.app:id/button_later

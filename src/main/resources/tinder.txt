@@ -1,0 +1,6 @@
+include=appium.txt
+APP_PACKAGE="com.tinder"
+APP_ACTIVITY="com.tinder.activities.LoginActivity"
+USER_NAME="com.tinder:id/recs_card_user_headline_name"
+USER_AGE="com.tinder:id/recs_card_user_headline_age"
+ERRORS="com.tinder:id/superlike_upsell_dismiss_button,com.tinder:id/gold_intro_dismiss_button"
