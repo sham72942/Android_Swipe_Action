@@ -18,7 +18,9 @@ Install to emulator using
 `adb install "path/to/downloaded/app.apk"`
 
 ##Running the code
+start appium in screen using `screen appium --no-reset`
+start the emulator in screen using & remember to use emulator from sdk/emulator path only & do not forget @ `screen ~/Android/Sdk/emulator/emulator @Pixel_5_API_28` you can also start the emulator by using android studio avd manager.
 Install the project using `mvn clean dependency:copy-dependencies package`, this creates an executable jar in the target folder.
 
-All the configs needed to execute the process are stored in `.bumble.rc & .tinder.rc` files, `source ./.tinder.rc` to export those configs as your environment variables.
-Then execute the jar created above  by running `java -jar target/appiumTest-1.0-SNAPSHOT.jar 1000` 1000 being the number of different profiles you want to swipe right.
+All the configs needed to execute the process are stored in `src/main/resources/*.txt` files, pass the respective file to be used as argument to the program as per the required app.
+Then execute the jar created above  by running `java -jar target/swipe-1.0-SNAPSHOT.jar 10000 bumble.txt` 1000 being the number of different profiles you want to swipe right.
